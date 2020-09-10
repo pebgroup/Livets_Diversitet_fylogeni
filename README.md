@@ -28,7 +28,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 data <- read.phyDat("data.phy", type="USER", levels=c(1,0))
 ```
 
-7. Find det korteste træ vha. "parsimony ratchet" ([Nixon, 1999](https://cran.r-project.org/web/packages/phangorn/index.html)), en effektiv søgestrategi:
+7. Find det korteste træ vha. "parsimony ratchet" ([Nixon, 1999](https://www.sciencedirect.com/science/article/pii/S0748300799901214)), en effektiv søgestrategi:
 
 ```R
 tree <- pratchet(data = data)
