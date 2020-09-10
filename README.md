@@ -16,13 +16,7 @@ install.packages("phangorn")
 library(phangorn)
 ```
 
-5. Sørg for, at R-studio leder efter dit dataset i den samme mappe, hvor R-skriptet ligger: 
-
-```R
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-```
-
-Hvis dette giver en fejlmeddelelse, vælg "Session", "Set Working Directory", "To Source File Location" I menuen. 
+5. Sørg for, at R-studio leder efter dit dataset i den samme mappe, hvor R-skriptet ligger: vælg "Session", "Set Working Directory", "To Source File Location" I menuen. 
 
 6. Tjek, om den rigtige mappe er valgt: 
 
