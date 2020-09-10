@@ -16,31 +16,39 @@ install.packages("phangorn")
 library(phangorn)
 ```
 
-5. Sørg for, at R-studio leder efter dit dataset i den samme folder, hvor R-skriptet ligger: 
+5. Sørg for, at R-studio leder efter dit dataset i den samme mappe, hvor R-skriptet ligger: 
 
 ```R
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 ```
 
-6. Indlæs datasættet: 
+Hvis dette giver en fejlmeddelelse, vælg "Session", "Set Working Directory", "To Source File Location" I menuen. 
+
+6. Tjek, om den rigtige mappe er valgt: 
+
+```R
+getwd()
+```
+
+7. Indlæs datasættet: 
 
 ```R
 data <- read.phyDat("data.phy", type="USER", levels=c(1,0))
 ```
 
-7. Find det korteste træ vha. "parsimony ratchet" ([Nixon, 1999](https://www.sciencedirect.com/science/article/pii/S0748300799901214)), en effektiv søgestrategi:
+8. Find det korteste træ vha. "parsimony ratchet" ([Nixon, 1999](https://www.sciencedirect.com/science/article/pii/S0748300799901214)), en effektiv søgestrategi:
 
 ```R
 tree <- pratchet(data = data)
 ```
 
-8. Definer outgroup og dermed træets rod: 
+9. Definer outgroup og dermed træets rod: 
 
 ```R
 tree <- root.phylo(tree, "outgroup", resolve.root = TRUE)
 ```
 
-9. Tegn træet: 
+10. Tegn træet: 
 
 ```
 plot(tree, root.edge = TRUE)
