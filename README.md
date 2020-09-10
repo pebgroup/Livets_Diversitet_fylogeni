@@ -7,7 +7,7 @@ Linjer der er markeret `med grå baggrund` skal kopieres og køres i R-studio. D
 
 2. Gem datasettet i mappe som *data.phy*. 
 
-3. Lav et nyt R-skript i R-studio (det bliver demonstreret under øvelsen hvordan man gør) og gem det i din mappe. Skriptets navn er uden betydning, men skal slutte på ".R", f.eks. *fylogeni.R*.
+3. Lav et nyt R-skript i R-studio (det bliver demonstreret under øvelsen hvordan man gør) og gem det i din mappe. Kald den *analyse.R*.
 
 4. Installer R-pakken "phangorn". "Pakker" er samlinger af små funktioner til forskellige formål; Phangorn indeholder funktioner til fylogenetisk rekonstruktion (læs mere [her](https://cran.r-project.org/web/packages/phangorn/index.html)).
 
