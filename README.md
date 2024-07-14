@@ -1,5 +1,5 @@
 # LØ5: Karakteranalyse og fylogenetisk rekonstruktion
-Wolf Eiserhardt ([wolf.eiserhardt@bio.au.dk](wolf.eiserhardt@bio.au.dk)) og Paola de Lima Ferreira ([paolaferreira@bio.au.dk](paolaferreira@bio.au.dk)), 11.-12. 9. 2023
+Wolf Eiserhardt ([wolf.eiserhardt@bio.au.dk](wolf.eiserhardt@bio.au.dk)) og Laura Kragh Frederiksen ([laura.frederiksen@bio.au.dk](laura.frederiksen@@bio.au.dk)), 9.-10. 9. 2023
 
 Linjer der er markeret `med grå baggrund` skal kopieres og køres i R-studio. Det bliver demonstreret under øvelsen hvordan man kører funktioner i R-studio. 
 
