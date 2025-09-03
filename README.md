@@ -7,7 +7,7 @@ Linjer der er markeret `med grå baggrund` skal kopieres og køres i R-studio. D
 
 2. Gem datasettet i mappen som *data.phy*. 
 
-3. Lav et nyt R-skript i R-studio (det bliver demonstreret under øvelsen hvordan man gør) og gem det i din mappe. Kald den *analyse.R*.
+3. Lav et nyt R-skript i R-studio og gem det i din mappe. Kald den *analyse.R*.
 
 <img src="https://github.com/pebgroup/Livets_Diversitet_fylogeni/blob/master/images/image1.jpg" width="200">
 
@@ -19,6 +19,8 @@ library(phangorn)
 ```
 
 5. Sørg for, at R-studio leder efter dit dataset i den samme mappe, hvor R-skriptet ligger: vælg "Session", "Set Working Directory", "To Source File Location" I menuen. 
+
+<img src="https://github.com/pebgroup/Livets_Diversitet_fylogeni/blob/master/images/image2.jpg" width="350">
 
 6. Tjek, om den rigtige mappe er valgt: 
 
