@@ -3,11 +3,13 @@ Wolf Eiserhardt ([wolf.eiserhardt@bio.au.dk](wolf.eiserhardt@bio.au.dk)) og Ren�
 
 Linjer der er markeret `med grå baggrund` skal kopieres og køres i R-studio. Det bliver demonstreret under øvelsen hvordan man kører funktioner i R-studio. 
 
-1. Lav en mappe (f.eks. på desktop). Folderens navn er uden betydning. 
+1. Lav en mappe (f.eks. på desktop). Mappens navn er uden betydning. 
 
 2. Gem datasettet i mappen som *data.phy*. 
 
 3. Lav et nyt R-skript i R-studio (det bliver demonstreret under øvelsen hvordan man gør) og gem det i din mappe. Kald den *analyse.R*.
+
+![](images/image1.jpg?raw=true)
 
 4. Installer R-pakken "phangorn". "Pakker" er samlinger af små funktioner til forskellige formål; Phangorn indeholder funktioner til fylogenetisk rekonstruktion (læs mere [her](https://cran.r-project.org/web/packages/phangorn/index.html)).
 
