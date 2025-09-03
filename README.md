@@ -9,7 +9,7 @@ Linjer der er markeret `med grå baggrund` skal kopieres og køres i R-studio. D
 
 3. Lav et nyt R-skript i R-studio (det bliver demonstreret under øvelsen hvordan man gør) og gem det i din mappe. Kald den *analyse.R*.
 
-![](images/image1.jpg?raw=true)
+<img src="https://github.com/pebgroup/Livets_Diversitet_fylogeni/blob/master/images/image1.jpg" width="200">
 
 4. Installer R-pakken "phangorn". "Pakker" er samlinger af små funktioner til forskellige formål; Phangorn indeholder funktioner til fylogenetisk rekonstruktion (læs mere [her](https://cran.r-project.org/web/packages/phangorn/index.html)).
 
